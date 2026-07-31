@@ -1,5 +1,8 @@
 package com.harsh.urlShortener.util;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Base62Encoder {
 
     private static final String BASE62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
